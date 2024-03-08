@@ -1,9 +1,9 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: disk
     env: docker
-    repo: https://github.com/Limkon/alist.git # optional
+    repo: https://github.com/Limkon/disk-render.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
